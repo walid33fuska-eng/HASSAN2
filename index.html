@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HASSAN 2 OMEGA</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #0a0e17 0%, #0f172a 100%);
+            color: #e2e8f0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 32px;
+            margin-bottom: 30px;
+            border: 1px solid #1e293b;
+        }
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, #a5f3fc, #38bdf8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .badge {
+            display: inline-block;
+            background: #1e293b;
+            padding: 8px 16px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            margin: 10px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-card {
+            background: #111827;
+            padding: 25px;
+            border-radius: 24px;
+            text-align: center;
+            border: 1px solid #1f2937;
+        }
+        .stat-number { font-size: 2.5rem; font-weight: bold; color: #38bdf8; }
+        .modules {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .module-category {
+            background: #111827;
+            border-radius: 20px;
+            padding: 20px;
+            border: 1px solid #1f2937;
+        }
+        .module-category h3 { color: #a5f3fc; margin-bottom: 15px; }
+        .module-category ul { list-style: none; }
+        .module-category li {
+            padding: 8px 0;
+            border-bottom: 1px solid #1f2937;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 1px solid #1f2937;
+            color: #5b6b8c;
+        }
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            margin: 10px;
+            transition: all 0.2s;
+        }
+        .btn:hover { background: #1d4ed8; transform: scale(1.02); }
+        .warning {
+            background: #1e1b4b;
+            border: 1px solid #312e81;
+            padding: 20px;
+            border-radius: 16px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .stat-number { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🤴 HASSAN 2 OMEGA</h1>
+        <p>Ultimate Cybersecurity Research Platform</p>
+        <div>
+            <span class="badge">🐍 Python 3</span>
+            <span class="badge">🤖 Groq AI</span>
+            <span class="badge">🛡️ Forensic</span>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div class="stat-card"><div class="stat-number">100+</div><div>Research Modules</div></div>
+        <div class="stat-card"><div class="stat-number">50+</div><div>Advanced Features</div></div>
+        <div class="stat-card"><div class="stat-number">150+</div><div>Total Capabilities</div></div>
+    </div>
+
+    <div class="modules">
+        <div class="module-category">
+            <h3>🔴 Malware (15)</h3>
+            <ul>
+                <li>ransomware_analysis</li><li>worm_analysis</li><li>trojan_analysis</li>
+                <li>rootkit_analysis</li><li>bootkit_analysis</li><li>spyware_analysis</li>
+                <li>polymorphic_malware</li><li>metamorphic_malware</li><li>fileless_malware</li>
+            </ul>
+        </div>
+        <div class="module-category">
+            <h3>🌐 Network (15)</h3>
+            <ul>
+                <li>mitm_analysis</li><li>dns_spoofing</li><li>arp_poisoning</li>
+                <li>port_scanning</li><li>network_sniffing</li><li>syn_flood</li>
+                <li>slowloris</li><li>ntp_amplification</li><li>memcached_attack</li>
+            </ul>
+        </div>
+        <div class="module-category">
+            <h3>💀 Credential (10)</h3>
+            <ul>
+                <li>credential_dumping</li><li>password_spraying</li><li>brute_force</li>
+                <li>dictionary_attack</li><li>kerberoasting</li><li>golden_ticket</li>
+            </ul>
+        </div>
+        <div class="module-category">
+            <h3>🌍 Web (15)</h3>
+            <ul>
+                <li>sql_injection</li><li>xss_analysis</li><li>csrf_analysis</li>
+                <li>ssrf_analysis</li><li>xxe_analysis</li><li>command_injection</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="warning">
+        ⚖️ <strong>LEGAL NOTICE</strong> ⚖️<br>
+        This tool is for <strong>EDUCATIONAL AND RESEARCH PURPOSES ONLY</strong>.<br>
+        Any illegal use is solely the user's responsibility.
+    </div>
+
+    <div style="text-align: center;">
+        <a href="https://github.com/walid33fuska-eng/HASSAN2" class="btn">📦 GitHub Repository</a>
+        <a href="https://github.com/walid33fuska-eng/HASSAN2/blob/main/hassan2.py" class="btn">🐍 View Source Code</a>
+    </div>
+
+    <div class="footer">
+        © HASSAN 2 OMEGA | Licensed under AGPL-3.0 | For Educational Use Only
+    </div>
+</div>
+</body>
+</html>
